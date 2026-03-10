@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/bare/(.*)", "destination": "https://bare.benroxy.com/$1" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
